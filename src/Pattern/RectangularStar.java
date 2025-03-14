@@ -7,10 +7,10 @@ public class RectangularStar {
 
         int N = in.nextInt();
         for (int i =0;i<N;i++) {
-            for(int j=0;j<N;j++ ) {
+            for(int j=0;j<=i;j++ ) {
                 System.out.print("*");
             }
-            System.out.println();
+           System.out.println();
         }
     }
 }
